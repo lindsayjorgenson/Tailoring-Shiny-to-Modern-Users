@@ -1,0 +1,140 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import 'https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet';
+
+$font-family-sans-serif: "Jost", sans-serif;
+$presentation-heading-color: #80AAD7;
+$presentation-title-slide-text-align: "left";
+
+// colors
+$blue:    #1b5380 !default;
+$orange:  #C65227 !default;
+$yellow:  #e9b444 !default;
+$green:   #4eb180 !default;
+$lightblue:    #6fc5e9 !default;
+$dark:    #222326 !default;
+
+$body-bg: #fcfbfa;
+$body-color: #273b50;
+$link-color: #7E98A8;
+$code-block-bg: $body-bg;
+$code-block-border-color: $body-bg;
+$tabset-border-color: $body-color;
+
+
+/*-- scss:rules --*/
+
+details>summary {
+  font-size: 0.75em;
+}
+
+
+// Navbar
+
+.navbar {
+  font-size: 0.75em;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+// Typography
+
+.reveal .title {
+  color: $orange;
+  font-size: 1.9em;
+  font-weight: 400;
+  position: absolute;
+  bottom: 415px;
+  left: 700px;
+  text-align: left;
+}
+
+
+.reveal .subtitle {
+  color: $dark;
+  font-size: .8em;
+  font-weight: 300;
+  position: absolute;
+  bottom: 320px;
+  left: 975px;
+  text-align: left;
+}
+
+.reveal .subtitle-sm {
+  color: $dark;
+  font-size: .7em;
+  font-weight: 300;
+  position: absolute;
+  bottom: 625px;
+  left: 700px;
+  text-align: left;
+}
+
+.reveal .slide-header {
+  font-size: .9em;
+  font-weight: 300;
+  position: absolute;
+  color: $orange;
+}
+
+.reveal .text {
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.reveal p {
+  color: $blue;
+}
+
+.reveal h1 {
+  color: $orange;
+}
+
+.reveal h2 {
+  color: $orange;
+}
+
+
+blockquote {
+  font-style: italic;
+}
+
+// body
+
+.reveal .reveal-full-page {
+  margin-left: 0px;
+}
+
+
+// video embeds
+
+.reveal .element.style {
+  margin: 0% !important;
+}
+
+.reveal .video-js {
+    display: block;
+    vertical-align: top;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    font-size: 10px;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: initial;
+}
+
+.vjs-has-started .vjs-control-bar, .vjs-audio-only-mode .vjs-control-bar {
+    display: none;
+    visibility: hidden;
+    opacity: 1;
+    transition: visibility 0.1s, opacity 0.1s;
+}
+
+
+

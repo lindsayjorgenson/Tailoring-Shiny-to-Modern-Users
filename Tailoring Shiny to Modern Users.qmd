@@ -1,0 +1,50 @@
+---
+author: Lindsay Jorgenson
+engine: knitr
+logo: logo.png
+format:
+  revealjs: 
+    theme: [default, my_styles.scss]
+    hash-type: number
+    width: 1280
+    height: 720
+---
+
+##  {#slide1-id data-menu-title="Tailoring Shiny" background-image="profile.gif" background-size="110%"}
+
+[Tailoring Shiny to Modern Users]{.title} 
+[Lindsay Jorgenson <br> & John Coene]{.subtitle} [*ShinyConf 2024*]{.subtitle-sm}
+
+
+
+##  {#slide2-id data-menu-title="What is the Profile?"}
+
+[**Overview** \| What is the Profile?]{.slide-header}
+<br> <br> <br> 
+[The ASTHO Profile of State and Territorial Public Health is a longitudinal census that began in 2007 and is fielded every three years to state and territorial health agencies with funding from CDC and RWJF.]{.text} <br> <br> <br> <br> 
+<div>![](images/profile_sections.png){fig-alt="Governance, Structure, Activities, Finance, Workforce, Planning and Quality Improvement, Healthy Equity, and Informatics" .absolute bottom=50 right=138 width="80%"}
+
+
+
+##  {#slide3-id data-menu-title="Why is it Useful?"}
+
+[**Overview** \| Why is it Useful?]{.slide-header}
+<br> <br> <br> 
+
+:::: {.columns}
+
+::: {.column}
+Things
+:::
+
+::: {.column}
+Things
+:::
+
+::::
+
+
+
+##  {data-menu-title="Page Collapse"}
+
+{{< video screen_collapse.mov height="650px">}}
