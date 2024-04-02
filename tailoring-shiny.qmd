@@ -1,0 +1,35 @@
+---
+author: Lindsay Jorgenson
+engine: knitr
+logo: images/logo.png
+format:
+  revealjs: 
+    theme: [default, my_styles.scss]
+    hash-type: number
+    width: 1280
+    height: 720
+    css: bootswatch_styles.css
+---
+
+```{r}
+library(bslib)
+library(shiny)
+library(shinyjs)
+```
+
+
+##  {#tailoring_shiny data-menu-title="Tailoring Shiny" background-image="profile.gif" background-size="110%"}
+[Tailoring Shiny to Modern Users]{.title} [Lindsay Jorgenson <br> & John Coene]{.subtitle} [*ShinyConf 2024*]{.subtitle-sm}
+
+
+<!-- Insert Overview Slides -->
+{{< include _01-overview.qmd >}}
+
+
+<!-- Insert Modern Users Slides -->
+{{< include _02-users.qmd >}}
+
+
+##  {data-menu-title="Page Collapse"}
+
+{{< video videos/screen_collapse.mov height="650px">}}
