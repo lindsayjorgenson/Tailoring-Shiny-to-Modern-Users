@@ -1,5 +1,12 @@
 <!-- Modern Userds Section Slide -->
-# Modern Users
+#  {#modern-users .background-title}
+<center>
+![](images/users_slide.png){width="30%"}
+<br>
+[Modern Users]{.section-header}
+</center>
+
+
 
 ##  {#slide6-id data-menu-title="Wants and Needs"}
 
@@ -10,6 +17,22 @@
 ##  {#slide7-id data-menu-title="Guiding Principals"}
 
 [**Modern Users** \| Guiding Principals]{.slide-header}
+
+<br> <br> 
+
+<center>
+::: {.r-stack}
+
+::: {}
+![](images/bad_clutter.png){width="70%"}
+:::
+
+::: {.fragment .fade-up}
+![](images/no_clutter.png){width="70%"}
+:::
+:::
+</center>
+
 
 ##  {#slide8-id data-menu-title="The Profile Dashboard"}
 
