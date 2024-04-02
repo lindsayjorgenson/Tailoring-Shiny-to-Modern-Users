@@ -37,6 +37,7 @@
   <link href="tailoring-shiny_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="tailoring-shiny_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="tailoring-shiny_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="tailoring-shiny_files/libs/revealjs/plugin/appearance/appearance.css" rel="stylesheet">
   <link href="tailoring-shiny_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -335,9 +336,11 @@
 <!-- Background Section Slide -->
 </section>
 <section>
-<section id="profile-background" class="title-slide slide level1 background-title center" data-menu-title="Background" data-background-image="images/background_title_slide.jpg" data-background-size="30%">
+<section id="profile-background" class="title-slide slide level1 background-title center">
 <h1></h1>
-<p><span class="section-header">Background</span></p>
+<center>
+<img data-src="images/background_slide_alt.png" style="width:30.0%"> <br> <span class="section-header">Background</span>
+</center>
 <!-- What is the Profile? -->
 </section>
 <section id="profile-about" class="slide level2" data-menu-title="What is the Profile?">
@@ -380,15 +383,16 @@
 </section>
 <section id="profile-previous" class="slide level2" data-menu-title="Previous Dashboard">
 <h2></h2>
-<p><span class="slide-header"><strong>Background</strong> | Before…</span> <br> <br></p>
-<video id="video_shortcode_videojs_video1" height="500px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/previous_dashboard.mov"></video>
+<p><span class="slide-header"><strong>Background</strong> | Before…</span> <br> <br> <video id="video_shortcode_videojs_video2" height="500px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/previous_dashboard.mov"></video></p>
 <!-- Insert Modern Users Slides -->
 <!-- Modern Userds Section Slide -->
 </section></section>
 <section>
-<section class="title-slide slide level1 center">
-<h1>Modern Users</h1>
-
+<section id="modern-users" class="title-slide slide level1 background-title center">
+<h1></h1>
+<center>
+<img data-src="images/users_slide.png" style="width:30.0%"> <br> <span class="section-header">Modern Users</span>
+</center>
 </section>
 <section id="slide6-id" class="slide level2" data-menu-title="Wants and Needs">
 <h2></h2>
@@ -397,6 +401,17 @@
 <section id="slide7-id" class="slide level2" data-menu-title="Guiding Principals">
 <h2></h2>
 <p><span class="slide-header"><strong>Modern Users</strong> | Guiding Principals</span></p>
+<p><br> <br></p>
+<center>
+<div class="r-stack">
+<div>
+<p><img data-src="images/bad_clutter.png" style="width:70.0%"></p>
+</div>
+<div class="fragment fade-left">
+<p><img data-src="images/no_clutter.png" style="width:70.0%"></p>
+</div>
+</div>
+</center>
 </section>
 <section id="slide8-id" class="slide level2" data-menu-title="The Profile Dashboard">
 <h2></h2>
@@ -418,7 +433,7 @@
 </section>
 <section class="slide level2" data-menu-title="Page Collapse">
 <h2></h2>
-<video id="video_shortcode_videojs_video2" height="650px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/screen_collapse.mov"></video>
+<video id="video_shortcode_videojs_video1" height="650px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/screen_collapse.mov"></video>
 
 <img src="images/logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 
@@ -434,6 +449,7 @@
   <script src="tailoring-shiny_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="tailoring-shiny_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="tailoring-shiny_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="tailoring-shiny_files/libs/revealjs/plugin/appearance/appearance.js"></script>
   <script src="tailoring-shiny_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -456,6 +472,7 @@
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'appearance': {"hideagain":true,"delay":300,"debug":false,"appearevent":"slidetransitionend","autoappear":false,"autoelements":false,"appearparents":false},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -626,7 +643,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, Appearance, QuartoSupport,
 
           RevealMath,
           RevealNotes,

@@ -9,6 +9,8 @@ format:
     width: 1280
     height: 720
     css: bootswatch_styles.css
+    revealjs-plugins:
+      - appearance
 ---
 
 ```{r}
