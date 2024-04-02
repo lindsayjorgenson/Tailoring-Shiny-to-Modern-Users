@@ -41,12 +41,9 @@ details>summary {
 // Typography
 
 .reveal .section-header {
-    color: $orange;
+    color: $offwhite;
   font-size: 2.3em;
-  font-weight: 700;
-  right: 1140px;
-  position: absolute;
-  text-align: left;
+  font-weight: 300;
 }
 
 
@@ -183,5 +180,5 @@ blockquote {
 }
 
 .background-title {
-    left: 400px !important;
+    background-color: $green !important;
 }
