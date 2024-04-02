@@ -14,6 +14,7 @@ $yellow:  #e9b444 !default;
 $green:   #4eb180 !default;
 $lightblue:    #6fc5e9 !default;
 $dark:    #222326 !default;
+$offwhite: #fcfbfa !default;
 
 $body-bg: #fcfbfa;
 $body-color: #273b50;
@@ -38,6 +39,16 @@ details>summary {
 }
 
 // Typography
+
+.reveal .section-header {
+    color: $orange;
+  font-size: 2.3em;
+  font-weight: 700;
+  right: 1140px;
+  position: absolute;
+  text-align: left;
+}
+
 
 .reveal .title {
   color: $orange;
@@ -83,6 +94,10 @@ details>summary {
     margin-right: 10%;
 }
 
+.reveal .title-slide h1 {
+  position: absolute;
+}
+
 .reveal p {
   color: $blue;
 }
@@ -108,9 +123,31 @@ blockquote {
 
 
 // video embeds
-
 .reveal .element.style {
   margin: 0% !important;
+}
+
+.video-js .vjs-tech {
+  left: 200px !important;
+  box-shadow: 0px 14px 15px 2px rgba(0,0,0,.3)
+}
+
+.vjs-modal-dialog .vjs-modal-dialog-content, .video-js .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+  position: none !important;
+}
+
+
+.vjs-icon-play, .video-js .vjs-play-control .vjs-icon-placeholder, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+  color: $offwhite;
+  background-color: $lightblue;
+  border-radius: 100px;
+}
+.video-js .vjs-big-play-button {
+  background-color: $offwhite !important;
+}
+
+.video-js:hover .vjs-big-play-button, .video-js .vjs-big-play-button:focus {
+  background-color: $offwhite !important;
 }
 
 .reveal .video-js {
@@ -118,14 +155,13 @@ blockquote {
     vertical-align: top;
     box-sizing: border-box;
     color: #fff;
-    background-color: #fff;
+    background-color: $offwhite;
     position: relative;
     padding: 0;
     font-size: 10px;
     line-height: 1;
     font-weight: normal;
     font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
     word-break: initial;
 }
 
@@ -137,4 +173,15 @@ blockquote {
 }
 
 
+// iFrame
 
+.frame
+{
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.background-title {
+    left: 400px !important;
+}
