@@ -17,8 +17,8 @@ $dark:    #222326 !default;
 $offwhite: #fcfbfa !default;
 
 $body-bg: #fcfbfa;
-$body-color: #273b50;
-$link-color: #7E98A8;
+$body-color: #222326;
+$link-color: #C65227;
 $code-block-bg: $body-bg;
 $code-block-border-color: $body-bg;
 $tabset-border-color: $body-color;
@@ -45,7 +45,6 @@ details>summary {
   font-size: 2.3em;
   font-weight: 300;
 }
-
 
 .reveal .title {
   color: $orange;
@@ -180,5 +179,5 @@ blockquote {
 }
 
 .background-title {
-    background-color: $green !important;
+    background-color: #389E70 !important;
 }
