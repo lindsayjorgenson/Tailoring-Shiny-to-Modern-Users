@@ -8,13 +8,13 @@
 
 
 
-##  {#slide6-id data-menu-title="Wants and Needs"}
+##  {#modern-wants data-menu-title="Wants and Needs"}
 
 [**Modern Users** \| Wants and Needs]{.slide-header}
 
 
 
-##  {#slide7-id data-menu-title="Guiding Principals"}
+##  {#modern-principals data-menu-title="Guiding Principals"}
 
 [**Modern Users** \| Guiding Principals]{.slide-header}
 
@@ -24,32 +24,72 @@
 ::: {.r-stack}
 
 ::: {}
-![](images/bad_clutter.png){width="70%"}
+![](images/bad_clutter.png){width="60%"}
 :::
 
-::: {.fragment .fade-up}
-![](images/no_clutter.png){width="70%"}
+::: {}
+[![](images/no_clutter.png){width="60%"}]{.animate__fadeInLeft data-appear-parent="true" data-delay="3000"}
 :::
 :::
 </center>
 
+::: {.fragment .fade-in}
+![](images/gp_clutter.png){width="25%" .absolute left="1000px" top="245px"}
+:::
 
-##  {#slide8-id data-menu-title="The Profile Dashboard"}
+::: {.fragment .fade-in}
+![](images/gp_interpretation.png){width="25%" .absolute left="1000px" top="350px"}
+:::
 
-```{=html}
-<style>
-    #wrap { width: 1730px; 
-            height: 970px; 
-            position:relative;}
-    #frame { -ms-zoom: 0.75; 
-             -webkit-transform: scale(0.75); 
-             -webkit-transform-origin: 0 0;
-             padding-left: -30px;
-             box-shadow: 0px 14px 15px 2px rgba(0,0,0,.3);
-             border-top: 2px solid white}
-</style>
-<div id="wrap">
-<iframe id="frame" src="https://astho.shinyapps.io/profile/" width="100%" height="100%" ></iframe>
-</div>
-```
-![](images/qr_code.png){.absolute fig-alt="QR Code to access dashboard" top="620" left="1255" width="70" height="70"} }
+
+::: {.fragment .fade-in}
+![](images/gp_charts.png){width="25%" .absolute left="1000px" top="480px"}
+:::
+
+
+::: {.fragment .fade-in}
+![](images/gp_fun.png){width="25%" .absolute left="-30px" top="238px"}
+:::
+
+::: {.fragment .fade-in}
+![](images/gp_hide.png){width="25%" .absolute left="-30px" top="480px"}
+:::
+
+::: {.fragment .fade-in}
+![](images/gp_accessible.png){width="25%" .absolute left="485px" top="565px"}
+:::
+
+
+##  {#modern-accessibility data-menu-title="Accessibility"}
+
+[**Modern Users** \| Accessibility with Adobe Color]{.slide-header}
+
+<br> <br>
+<center>
+:::{.r-stack}
+::: {.fragment .fade-out fragment-index=2}
+![](images/wheel.png){width="20%"}
+:::
+:::{.fragment fragment-index=3}
+![](images/checker.png){width="60%"}
+:::
+:::
+
+:::{}
+![](images/palette.png){width="60%"}
+:::
+
+::: {.fragment fragment-index=1}
+<br>
+![](images/color_blindness.png){width="60%"}
+:::
+</center>
+
+
+##  {#modern-accessibility data-menu-title="Accessibility"}
+
+[**Modern Users** \| Accessibility with CCA]{.slide-header}
+
+<br> <br>
+{{< video videos/accessibility.mov height="600px" >}}
+
