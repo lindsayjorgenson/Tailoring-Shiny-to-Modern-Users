@@ -31,6 +31,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="tailoring-shiny_files/libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="bootswatch_styles.css">
@@ -394,26 +459,80 @@
 <img data-src="images/users_slide.png" style="width:30.0%"> <br> <span class="section-header">Modern Users</span>
 </center>
 </section>
-<section id="slide6-id" class="slide level2" data-menu-title="Wants and Needs">
+<section id="modern-wants" class="slide level2" data-menu-title="Wants and Needs">
 <h2></h2>
 <p><span class="slide-header"><strong>Modern Users</strong> | Wants and Needs</span></p>
 </section>
-<section id="slide7-id" class="slide level2" data-menu-title="Guiding Principals">
+<section id="modern-principals" class="slide level2" data-menu-title="Guiding Principals">
 <h2></h2>
 <p><span class="slide-header"><strong>Modern Users</strong> | Guiding Principals</span></p>
 <p><br> <br></p>
 <center>
 <div class="r-stack">
 <div>
-<p><img data-src="images/bad_clutter.png" style="width:70.0%"></p>
+<p><img data-src="images/bad_clutter.png" style="width:60.0%"></p>
 </div>
-<div class="fragment fade-left">
-<p><img data-src="images/no_clutter.png" style="width:70.0%"></p>
+<div>
+<p><span class="animate__fadeInLeft" data-appear-parent="true" data-delay="3000"><img data-src="images/no_clutter.png" style="width:60.0%"></span></p>
 </div>
 </div>
 </center>
+<div class="fragment fade-in">
+<p><img data-src="images/gp_clutter.png" class="absolute" style="top: 245px; left: 1000px; width: 25%; "></p>
+</div>
+<div class="fragment fade-in">
+<p><img data-src="images/gp_interpretation.png" class="absolute" style="top: 350px; left: 1000px; width: 25%; "></p>
+</div>
+<div class="fragment fade-in">
+<p><img data-src="images/gp_charts.png" class="absolute" style="top: 480px; left: 1000px; width: 25%; "></p>
+</div>
+<div class="fragment fade-in">
+<p><img data-src="images/gp_fun.png" class="absolute" style="top: 238px; left: -30px; width: 25%; "></p>
+</div>
+<div class="fragment fade-in">
+<p><img data-src="images/gp_hide.png" class="absolute" style="top: 480px; left: -30px; width: 25%; "></p>
+</div>
+<div class="fragment fade-in">
+<p><img data-src="images/gp_accessible.png" class="absolute" style="top: 565px; left: 485px; width: 25%; "></p>
+</div>
 </section>
-<section id="slide8-id" class="slide level2" data-menu-title="The Profile Dashboard">
+<section id="modern-accessibility" class="slide level2" data-menu-title="Accessibility">
+<h2></h2>
+<p><span class="slide-header"><strong>Modern Users</strong> | Accessibility with Adobe Color</span></p>
+<br> <br>
+<center>
+<div class="r-stack">
+<div class="fragment fade-out" data-fragment-index="2">
+<p><img data-src="images/wheel.png" style="width:20.0%"></p>
+</div>
+<div class="fragment" data-fragment-index="3">
+<p><img data-src="images/checker.png" style="width:60.0%"></p>
+</div>
+</div>
+<div>
+<p><img data-src="images/palette.png" style="width:60.0%"></p>
+</div>
+<div class="fragment" data-fragment-index="1">
+<p><br> <img data-src="images/color_blindness.png" style="width:60.0%"></p>
+</div>
+</center>
+</section>
+<section id="modern-accessibility" class="slide level2" data-menu-title="Accessibility">
+<h2></h2>
+<p><span class="slide-header"><strong>Modern Users</strong> | Accessibility with CCA</span></p>
+<p><br> <br></p>
+<video id="video_shortcode_videojs_video1" height="600px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/accessibility.mov"></video>
+<!-- Insert Profile Slides -->
+<!-- Modern Userds Section Slide -->
+</section></section>
+<section>
+<section id="profile-dashboard" class="title-slide slide level1 background-title center">
+<h1></h1>
+<center>
+<img data-src="images/users_slide.png" style="width:30.0%"> <br> <span class="section-header">Profile Dashboard</span>
+</center>
+</section>
+<section id="profile-dashboard" class="slide level2" data-menu-title="The Profile Dashboard">
 <h2></h2>
 <style>
     #wrap { width: 1730px; 
@@ -431,9 +550,50 @@
 </div>
 <p><img data-src="images/qr_code.png" class="absolute" style="top: 620px; left: 1255px; width: 70px; height: 70px; " alt="QR Code to access dashboard"> }</p>
 </section>
-<section class="slide level2" data-menu-title="Page Collapse">
+<section id="profile-cicerone" class="slide level2" data-menu-title="Navigation Pop">
 <h2></h2>
-<video id="video_shortcode_videojs_video1" height="650px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/screen_collapse.mov"></video>
+<p><span class="slide-header"><strong>Profile</strong> | Navigation Pop</span> <br> <br></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="in">```{r}</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="co">#create an MRE app and add the code that would correspond</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="co">#link to the GitHub repo</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><img data-src="images/navigation.png" class="absolute" style="top: 120px; left: 855px; width: 30%; " alt="navigation pop-up"></p>
+</section>
+<section id="profile-stories-demo" class="slide level2" data-menu-title="Data Stories Demo">
+<h2></h2>
+<p><span class="slide-header"><strong>Profile</strong> | Data Stories Demo</span> <br> <br></p>
+<p>Add video</p>
+</section>
+<section id="profile-stories-code" class="slide level2" data-menu-title="Data Stories Code">
+<h2></h2>
+<p><span class="slide-header"><strong>Profile</strong> | Data Stories Code</span> <br> <br> ::: {.cell}</p>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1"></a><span class="in">```{r}</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="co">#create an MRE app and add the code that would correspond</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="co">#link to the GitHub repo</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>:::</p>
+</section>
+<section id="profile-collapse" class="slide level2" data-menu-title="Page Collapse">
+<h2></h2>
+<p><span class="slide-header"><strong>Profile</strong> | Page Collapse</span> <br> <br></p>
+<p>Add video</p>
+</section>
+<section id="profile-filter" class="slide level2" data-menu-title="Flex Filter">
+<h2></h2>
+<p><span class="slide-header"><strong>Profile</strong> | Filtering</span> <br> <br></p>
+<p>Add video</p>
+</section>
+<section id="links" class="slide level2" data-menu-title="Helpful Links">
+<h2></h2>
+<p><span class="slide-header"><strong>Helpful Links</strong></span></p>
+<p><br> <br></p>
+<ol type="1">
+<li>For more information on how to use Adobe Color, visit <a href="https://helpx.adobe.com/creative-cloud/adobe-color-accessibility-tools.html#:~:text=Create%20accessible%20color%20themes%20from,on%20the%20accessible%20color%20wheel.">Adobe’s accessibility help site</a>.</li>
+<li>To download the Colour Contrast Analyzer, <a href="https://www.tpgi.com/color-contrast-checker/">click here</a>.</li>
+<li>Mara Averick has <a href="https://quartoand.me/blog">a great blog with a five-part series</a> on accessibility using Joshua Kunst’s <code>{highcharter}</code> package (<a href="https://jkunst.com/highcharter/">here</a>).</li>
+</ol>
 
 <img src="images/logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 
