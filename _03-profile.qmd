@@ -1,14 +1,12 @@
-<!-- Modern Userds Section Slide -->
+<!-- Profile Dashboard Section Slide -->
+
 #  {#profile-dashboard .background-title}
-<center>
-![](images/users_slide.png){width="30%"}
-<br>
-[Profile Dashboard]{.section-header}
-</center>
+
+<center>![](images/users_slide.png){width="30%"} <br> [Profile Dashboard]{.section-header}</center>
 
 
-
-## {#profile-dashboard data-menu-title="The Profile Dashboard"}
+<!-- Profile Demo Slide -->
+##  {#profile-demo data-menu-title="The Profile Dashboard"}
 
 ```{=html}
 <style>
@@ -29,32 +27,19 @@
 ![](images/qr_code.png){.absolute fig-alt="QR Code to access dashboard" top="620" left="1255" width="70" height="70"} }
 
 
-
-##  {#profile-cicerone data-menu-title="Navigation Pop"}
-[**Profile** \| Navigation Pop]{.slide-header}
-<br> <br>
-
-```{r}
-#| echo: fenced
-
-#create an MRE app and add the code that would correspond
-#link to the GitHub repo
-
-```
-
-![](images/navigation.png){.absolute fig-alt="navigation pop-up" top="120" left="855" width="30%"}
-
-
+<!-- Profile Data Stories Video -->
 ##  {#profile-stories-demo data-menu-title="Data Stories Demo"}
-[**Profile** \| Data Stories Demo]{.slide-header}
-<br> <br>
 
-Add video 
+[**Profile** \| Data Stories Demo]{.slide-header} <br> <br>
+
+{{< video videos/stories.mov height="600px" >}}
 
 
+
+<!-- Profile Data Stories Code -->
 ##  {#profile-stories-code data-menu-title="Data Stories Code"}
-[**Profile** \| Data Stories Code]{.slide-header}
-<br> <br>
+
+[**Profile** \| Data Stories Code]{.slide-header} <br> <br>
 
 ```{r}
 #| echo: fenced
@@ -65,15 +50,21 @@ Add video
 ```
 
 
+<!-- Profile Collapse Video -->
 ##  {#profile-collapse data-menu-title="Page Collapse"}
+
 [**Profile** \| Page Collapse]{.slide-header}
+
 <br> <br>
 
-Add video 
+{{< video videos/collapse.mov height="600px" >}}
 
 
+<!-- Profile Filter Video -->
 ##  {#profile-filter data-menu-title="Flex Filter"}
+
 [**Profile** \| Filtering]{.slide-header}
+
 <br> <br>
 
-Add video 
+Add video

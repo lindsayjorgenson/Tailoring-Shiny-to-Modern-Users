@@ -27,8 +27,8 @@
 ![](images/bad_clutter.png){width="60%"}
 :::
 
-::: {}
-[![](images/no_clutter.png){width="60%"}]{.animate__fadeInLeft data-appear-parent="true" data-delay="3000"}
+::: {.fragment .fade-in}
+![](images/no_clutter.png){width="60%"}
 :::
 :::
 </center>
