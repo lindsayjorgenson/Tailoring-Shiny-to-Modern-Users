@@ -125,40 +125,32 @@ blockquote {
 
 .video-js .vjs-tech {
   left: 200px !important;
-  box-shadow: 0px 14px 15px 2px rgba(0,0,0,.3)
+  box-shadow: 0px 14px 15px 2px rgba(0,0,0,.3);
+  color: #fff;
+  background-color: $offwhite !important;
 }
 
-.vjs-modal-dialog .vjs-modal-dialog-content, .video-js .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+.video-js {
+  background-color: $offwhite !important;
+}
+
+.vjs-modal-dialog .vjs-modal-dialog-content, .vjs-modal-dialog, .vjs-button > .vjs-icon-placeholder:before, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
   position: none !important;
 }
 
 
-.vjs-icon-play, .video-js .vjs-play-control .vjs-icon-placeholder, .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+.vjs-icon-play, .video-js .vjs-play-control .vjs-icon-placeholder,.vjs-big-play-button .vjs-icon-placeholder:before {
   color: $offwhite;
   background-color: $lightblue;
   border-radius: 100px;
 }
-.video-js .vjs-big-play-button {
+
+.vjs-big-play-button {
   background-color: $offwhite !important;
 }
 
 .video-js:hover .vjs-big-play-button, .video-js .vjs-big-play-button:focus {
   background-color: $offwhite !important;
-}
-
-.reveal .video-js {
-    display: block;
-    vertical-align: top;
-    box-sizing: border-box;
-    color: #fff;
-    background-color: $offwhite;
-    position: relative;
-    padding: 0;
-    font-size: 10px;
-    line-height: 1;
-    font-weight: normal;
-    font-style: normal;
-    word-break: initial;
 }
 
 .vjs-has-started .vjs-control-bar, .vjs-audio-only-mode .vjs-control-bar {
