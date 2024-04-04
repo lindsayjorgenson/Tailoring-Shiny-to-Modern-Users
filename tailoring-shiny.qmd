@@ -8,10 +8,8 @@ format:
     hash-type: number
     width: 1280
     height: 720
-    css: bootswatch_styles.css
     revealjs-plugins:
       - appearance
-        
 ---
 
 ##  {#tailoring_shiny data-menu-title="Tailoring Shiny" background-image="profile.gif" background-size="110%"}

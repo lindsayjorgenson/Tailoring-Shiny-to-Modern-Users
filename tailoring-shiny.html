@@ -98,7 +98,6 @@
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="tailoring-shiny_files/libs/revealjs/dist/theme/quarto.css">
-  <link rel="stylesheet" href="bootswatch_styles.css">
   <link href="tailoring-shiny_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="tailoring-shiny_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="tailoring-shiny_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -448,7 +447,7 @@
 </section>
 <section id="profile-previous" class="slide level2" data-menu-title="Previous Dashboard">
 <h2></h2>
-<p><span class="slide-header"><strong>Background</strong> | Before…</span> <br> <br> <video id="video_shortcode_videojs_video2" height="500px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/previous_dashboard.mov"></video></p>
+<p><span class="slide-header"><strong>Background</strong> | Before…</span> <br> <br> <video id="video_shortcode_videojs_video4" height="500px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/previous_dashboard.mov"></video></p>
 <!-- Insert Modern Users Slides -->
 <!-- Modern Userds Section Slide -->
 </section></section>
@@ -472,8 +471,8 @@
 <div>
 <p><img data-src="images/bad_clutter.png" style="width:60.0%"></p>
 </div>
-<div>
-<p><span class="animate__fadeInLeft" data-appear-parent="true" data-delay="3000"><img data-src="images/no_clutter.png" style="width:60.0%"></span></p>
+<div class="fragment fade-in">
+<p><img data-src="images/no_clutter.png" style="width:60.0%"></p>
 </div>
 </div>
 </center>
@@ -523,7 +522,7 @@
 <p><br> <br></p>
 <video id="video_shortcode_videojs_video1" height="600px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/accessibility.mov"></video>
 <!-- Insert Profile Slides -->
-<!-- Modern Userds Section Slide -->
+<!-- Profile Dashboard Section Slide -->
 </section></section>
 <section>
 <section id="profile-dashboard" class="title-slide slide level1 background-title center">
@@ -531,8 +530,9 @@
 <center>
 <img data-src="images/users_slide.png" style="width:30.0%"> <br> <span class="section-header">Profile Dashboard</span>
 </center>
+<!-- Profile Demo Slide -->
 </section>
-<section id="profile-dashboard" class="slide level2" data-menu-title="The Profile Dashboard">
+<section id="profile-demo" class="slide level2" data-menu-title="The Profile Dashboard">
 <h2></h2>
 <style>
     #wrap { width: 1730px; 
@@ -549,40 +549,36 @@
 <iframe id="frame" src="https://astho.shinyapps.io/profile/" width="100%" height="100%"></iframe>
 </div>
 <p><img data-src="images/qr_code.png" class="absolute" style="top: 620px; left: 1255px; width: 70px; height: 70px; " alt="QR Code to access dashboard"> }</p>
+<!-- Profile Data Stories Video -->
 </section>
-<section id="profile-cicerone" class="slide level2" data-menu-title="Navigation Pop">
+<section id="profile-stories-demo" class="slide level2" data-menu-title="Data Stories Demo">
 <h2></h2>
-<p><span class="slide-header"><strong>Profile</strong> | Navigation Pop</span> <br> <br></p>
+<p><span class="slide-header"><strong>Profile</strong> | Data Stories Demo</span> <br> <br></p>
+<video id="video_shortcode_videojs_video2" height="600px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/stories.mov"></video>
+<!-- Profile Data Stories Code -->
+</section>
+<section id="profile-stories-code" class="slide level2" data-menu-title="Data Stories Code">
+<h2></h2>
+<p><span class="slide-header"><strong>Profile</strong> | Data Stories Code</span> <br> <br></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="in">```{r}</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="co">#create an MRE app and add the code that would correspond</span></span>
 <span id="cb1-3"><a href="#cb1-3"></a><span class="co">#link to the GitHub repo</span></span>
 <span id="cb1-4"><a href="#cb1-4"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p><img data-src="images/navigation.png" class="absolute" style="top: 120px; left: 855px; width: 30%; " alt="navigation pop-up"></p>
-</section>
-<section id="profile-stories-demo" class="slide level2" data-menu-title="Data Stories Demo">
-<h2></h2>
-<p><span class="slide-header"><strong>Profile</strong> | Data Stories Demo</span> <br> <br></p>
-<p>Add video</p>
-</section>
-<section id="profile-stories-code" class="slide level2" data-menu-title="Data Stories Code">
-<h2></h2>
-<p><span class="slide-header"><strong>Profile</strong> | Data Stories Code</span> <br> <br> ::: {.cell}</p>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1"></a><span class="in">```{r}</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="co">#create an MRE app and add the code that would correspond</span></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="co">#link to the GitHub repo</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>:::</p>
+<!-- Profile Collapse Video -->
 </section>
 <section id="profile-collapse" class="slide level2" data-menu-title="Page Collapse">
 <h2></h2>
-<p><span class="slide-header"><strong>Profile</strong> | Page Collapse</span> <br> <br></p>
-<p>Add video</p>
+<p><span class="slide-header"><strong>Profile</strong> | Page Collapse</span></p>
+<p><br> <br></p>
+<video id="video_shortcode_videojs_video3" height="600px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="videos/collapse.mov"></video>
+<!-- Profile Filter Video -->
 </section>
 <section id="profile-filter" class="slide level2" data-menu-title="Flex Filter">
 <h2></h2>
-<p><span class="slide-header"><strong>Profile</strong> | Filtering</span> <br> <br></p>
+<p><span class="slide-header"><strong>Profile</strong> | Filtering</span></p>
+<p><br> <br></p>
 <p>Add video</p>
 </section>
 <section id="links" class="slide level2" data-menu-title="Helpful Links">
@@ -996,6 +992,8 @@
       }
     });
     </script>
+    
+    
     
     
     
