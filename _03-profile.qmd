@@ -4,8 +4,8 @@
 
 <center>![](images/users_slide.png){width="30%"} <br> [Profile Dashboard]{.section-header}</center>
 
-
 <!-- Profile Demo Slide -->
+
 ##  {#profile-demo data-menu-title="The Profile Dashboard"}
 
 ```{=html}
@@ -26,17 +26,16 @@
 ```
 ![](images/qr_code.png){.absolute fig-alt="QR Code to access dashboard" top="620" left="1255" width="70" height="70"} }
 
-
 <!-- Profile Data Stories Video -->
+
 ##  {#profile-stories-demo data-menu-title="Data Stories Demo"}
 
 [**Profile** \| Data Stories Demo]{.slide-header} <br> <br>
 
 {{< video videos/stories.mov height="600px" >}}
 
-
-
 <!-- Profile Data Stories Code -->
+
 ##  {#profile-stories-code data-menu-title="Data Stories Code"}
 
 [**Profile** \| Data Stories Code]{.slide-header} <br> <br>
@@ -49,8 +48,8 @@
 
 ```
 
-
 <!-- Profile Collapse Video -->
+
 ##  {#profile-collapse data-menu-title="Page Collapse"}
 
 [**Profile** \| Page Collapse]{.slide-header}
@@ -59,8 +58,8 @@
 
 {{< video videos/collapse.mov height="600px" >}}
 
-
 <!-- Profile Filter Video -->
+
 ##  {#profile-filter data-menu-title="Flex Filter"}
 
 [**Profile** \| Filtering]{.slide-header}

@@ -1,17 +1,16 @@
 <!-- Background Section Slide -->
 
 #  {#profile-background .background-title}
-<center>
-![](images/background_slide_alt.png){width="30%"}
-<br>
-[Background]{.section-header}
-</center>
+
+<center>![](images/background_slide_alt.png){width="30%"} <br> [Background]{.section-header}</center>
 
 <!-- What is the Profile? -->
 
 ##  {#profile-about data-menu-title="What is the Profile?"}
 
-[**Background** \| What is the Profile?]{.slide-header} <br> <br> <br> [The ASTHO Profile of State and Territorial Public Health is a longitudinal census that began in 2007 and is fielded every three years to state and territorial health agencies with funding from CDC and RWJF.]{.text} <br> <br> <br> <br>
+[**Background** \| What is the Profile?]{.slide-header} 
+
+<br> <br> <br> [The ASTHO Profile of State and Territorial Public Health is a longitudinal census that began in 2007 and is fielded every three years to state and territorial health agencies with funding from CDC and RWJF.]{.text} <br> <br> <br> <br>
 
 ![](images/profile_sections.png){.absolute fig-alt="Governance, Structure, Activities, Finance, Workforce, Planning and Quality Improvement, Healthy Equity, and Informatics" bottom="50" right="138" width="80%"}
 
