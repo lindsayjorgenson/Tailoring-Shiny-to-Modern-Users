@@ -1,0 +1,4 @@
+- source: tailoring-shiny.qmd
+  netlify:
+    - id: 5f6a8172-1920-4457-bfd4-61e209dd03fc
+      url: 'https://leafy-elf-fdccb8.netlify.app'

@@ -8,6 +8,7 @@ format:
     hash-type: number
     width: 1280
     height: 720
+    embed-resources: true
     revealjs-plugins:
       - appearance
 ---
