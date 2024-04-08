@@ -9,8 +9,6 @@ format:
     width: 1280
     height: 720
     embed-resources: true
-    revealjs-plugins:
-      - appearance
 ---
 
 ##  {#tailoring_shiny data-menu-title="Tailoring Shiny" background-image="profile.gif" background-size="110%"}
