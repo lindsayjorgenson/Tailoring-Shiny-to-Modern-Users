@@ -10,6 +10,9 @@ format:
     height: 720
     resources:
     - accessibility.mp4
+    - stories.mp4
+    - previous_dashboard.mp4
+    - collapse.mp4
 ---
 
 ##  {#tailoring_shiny data-menu-title="Tailoring Shiny" background-image="profile.gif" background-size="110%"}
