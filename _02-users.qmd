@@ -88,4 +88,4 @@
 
 [**Modern Users** \| Accessibility with CCA]{.slide-header}
 
-<br> <br> {{< video images/accessibility.mp4 height="600px" >}}
+<br> <br> {{< video www/accessibility.mp4 height="600px" >}}

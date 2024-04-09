@@ -60,4 +60,4 @@
 
 ##  {#profile-previous data-menu-title="Previous Dashboard"}
 
-[**Background** \| Before...]{.slide-header} <br> <br> {{< video images/previous_dashboard.mp4 height="500px" >}}
+[**Background** \| Before...]{.slide-header} <br> <br> {{< video www/previous_dashboard.mp4 height="500px" >}}
