@@ -8,6 +8,8 @@ format:
     hash-type: number
     width: 1280
     height: 720
+    resources:
+    - accessibility.mp4
 ---
 
 ##  {#tailoring_shiny data-menu-title="Tailoring Shiny" background-image="profile.gif" background-size="110%"}

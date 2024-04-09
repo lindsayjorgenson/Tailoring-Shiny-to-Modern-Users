@@ -33,6 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="_02-users_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="_02-users_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="_02-users_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="_02-users_files/libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="_02-users_files/libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 
 
 </head>
@@ -64,8 +66,8 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <p><img src="images/bad_clutter.png" class="img-fluid" style="width:60.0%"></p>
 </div>
-<div>
-<p><span class="animate__fadeInLeft" data-appear-parent="true" data-delay="3000"><img src="images/no_clutter.png" class="img-fluid" style="width:60.0%"></span></p>
+<div class="fragment fade-in">
+<p><img src="images/no_clutter.png" class="img-fluid" style="width:60.0%"></p>
 </div>
 </div>
 </center>
@@ -88,10 +90,10 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="images/gp_accessible.png" class="absolute img-fluid" style="width:25.0%" data-left="485px" data-top="565px"></p>
 </div>
 </section>
-<section id="modern-accessibility" class="level2" data-menu-title="Accessibility">
-<h2 data-menu-title="Accessibility" class="anchored" data-anchor-id="modern-accessibility"></h2>
+<section id="modern-accessibility-1" class="level2" data-menu-title="Accessibility">
+<h2 data-menu-title="Accessibility" class="anchored" data-anchor-id="modern-accessibility-1"></h2>
 <p><span class="slide-header"><strong>Modern Users</strong> | Accessibility with Adobe Color</span></p>
-<br> <br>
+<p><br> <br></p>
 <center>
 <div class="r-stack">
 <div class="fragment fade-out" data-fragment-index="2">
@@ -107,28 +109,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="fragment" data-fragment-index="1">
 <p><br> <img src="images/color_blindness.png" class="img-fluid" style="width:60.0%"></p>
 </div>
-<div class="fragment" data-fragment-index="4">
-<p><span class="my-body" target="_blank">For more information on how to use Adobe Color, visit <a href="https://helpx.adobe.com/creative-cloud/adobe-color-accessibility-tools.html#:~:text=Create%20accessible%20color%20themes%20from,on%20the%20accessible%20color%20wheel.">Adobe’s accessibility help site</a>.</span></p>
-</div>
 </center>
 </section>
-<section id="modern-profile" class="level2" data-menu-title="The Profile Dashboard">
-<h2 data-menu-title="The Profile Dashboard" class="anchored" data-anchor-id="modern-profile"></h2>
-<style>
-    #wrap { width: 1730px; 
-            height: 970px; 
-            position:relative;}
-    #frame { -ms-zoom: 0.75; 
-             -webkit-transform: scale(0.75); 
-             -webkit-transform-origin: 0 0;
-             padding-left: -30px;
-             box-shadow: 0px 14px 15px 2px rgba(0,0,0,.3);
-             border-top: 2px solid white}
-</style>
-<div id="wrap">
-<iframe id="frame" src="https://astho.shinyapps.io/profile/" width="100%" height="100%"></iframe>
-</div>
-<p><img src="images/qr_code.png" class="absolute" data-top="620" data-left="1255" alt="QR Code to access dashboard" width="70" height="70"> }</p>
+<section id="modern-accessibility" class="level2" data-menu-title="Accessibility">
+<h2 data-menu-title="Accessibility" class="anchored" data-anchor-id="modern-accessibility"></h2>
+<p><span class="slide-header"><strong>Modern Users</strong> | Accessibility with CCA</span></p>
+<p><br> <br> </p><div class="quarto-video"><video id="video_shortcode_videojs_video1" height="600px" class="video-js vjs-default-skin " controls="" preload="auto" data-setup="{}" title=""><source src="accessibility.mp4"></video></div><p></p>
 </section>
 </section>
 
@@ -368,6 +354,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 
