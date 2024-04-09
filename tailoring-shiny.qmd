@@ -8,31 +8,30 @@ format:
     hash-type: number
     width: 1280
     height: 720
-    embed-resources: true
 ---
 
 ##  {#tailoring_shiny data-menu-title="Tailoring Shiny" background-image="profile.gif" background-size="110%"}
+
 [Tailoring Shiny to Modern Users]{.title} [Lindsay Jorgenson <br> & John Coene]{.subtitle} [*ShinyConf 2024*]{.subtitle-sm}
 
-
 <!-- Insert Overview Slides -->
+
 {{< include _01-overview.qmd >}}
 
-
 <!-- Insert Modern Users Slides -->
+
 {{< include _02-users.qmd >}}
 
-
 <!-- Insert Profile Slides -->
+
 {{< include _03-profile.qmd >}}
 
-
-
 ##  {#links data-menu-title="Helpful Links"}
+
 [**Helpful Links**]{.slide-header}
 
 <br> <br>
 
-1. For more information on how to use Adobe Color, visit [Adobe's accessibility help site](https://helpx.adobe.com/creative-cloud/adobe-color-accessibility-tools.html#:~:text=Create%20accessible%20color%20themes%20from,on%20the%20accessible%20color%20wheel.).
-1. To download the Colour Contrast Analyzer, [click here](https://www.tpgi.com/color-contrast-checker/).
-1. Mara Averick has [a great blog with a five-part series](https://quartoand.me/blog) on accessibility using Joshua Kunst’s `{highcharter}` package ([here](https://jkunst.com/highcharter/)).
+1.  For more information on how to use Adobe Color, visit [Adobe's accessibility help site](https://helpx.adobe.com/creative-cloud/adobe-color-accessibility-tools.html#:~:text=Create%20accessible%20color%20themes%20from,on%20the%20accessible%20color%20wheel.).
+2.  To download the Colour Contrast Analyzer, [click here](https://www.tpgi.com/color-contrast-checker/).
+3.  Mara Averick has [a great blog with a five-part series](https://quartoand.me/blog) on accessibility using Joshua Kunst’s `{highcharter}` package ([here](https://jkunst.com/highcharter/)).
