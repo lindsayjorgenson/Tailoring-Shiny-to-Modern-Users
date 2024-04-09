@@ -1,95 +1,91 @@
 <!-- Modern Userds Section Slide -->
+
 #  {#modern-users .background-title}
-<center>
-![](images/users_slide.png){width="30%"}
-<br>
-[Modern Users]{.section-header}
-</center>
 
-
+<center>![](images/users_slide.png){width="30%"} <br> [Modern Users]{.section-header}</center>
 
 ##  {#modern-wants data-menu-title="Wants and Needs"}
 
 [**Modern Users** \| Wants and Needs]{.slide-header}
 
-
-
 ##  {#modern-principals data-menu-title="Guiding Principals"}
 
 [**Modern Users** \| Guiding Principals]{.slide-header}
 
-<br> <br> 
+<br> <br>
 
 <center>
-::: {.r-stack}
 
-::: {}
+::: r-stack
+<div>
+
 ![](images/bad_clutter.png){width="60%"}
-:::
+
+</div>
 
 ::: {.fragment .fade-in}
 ![](images/no_clutter.png){width="60%"}
 :::
 :::
+
 </center>
 
 ::: {.fragment .fade-in}
-![](images/gp_clutter.png){width="25%" .absolute left="1000px" top="245px"}
+![](images/gp_clutter.png){.absolute width="25%" left="1000px" top="245px"}
 :::
 
 ::: {.fragment .fade-in}
-![](images/gp_interpretation.png){width="25%" .absolute left="1000px" top="350px"}
-:::
-
-
-::: {.fragment .fade-in}
-![](images/gp_charts.png){width="25%" .absolute left="1000px" top="480px"}
-:::
-
-
-::: {.fragment .fade-in}
-![](images/gp_fun.png){width="25%" .absolute left="-30px" top="238px"}
+![](images/gp_interpretation.png){.absolute width="25%" left="1000px" top="350px"}
 :::
 
 ::: {.fragment .fade-in}
-![](images/gp_hide.png){width="25%" .absolute left="-30px" top="480px"}
+![](images/gp_charts.png){.absolute width="25%" left="1000px" top="480px"}
 :::
 
 ::: {.fragment .fade-in}
-![](images/gp_accessible.png){width="25%" .absolute left="485px" top="565px"}
+![](images/gp_fun.png){.absolute width="25%" left="-30px" top="238px"}
 :::
 
+::: {.fragment .fade-in}
+![](images/gp_hide.png){.absolute width="25%" left="-30px" top="480px"}
+:::
+
+::: {.fragment .fade-in}
+![](images/gp_accessible.png){.absolute width="25%" left="485px" top="565px"}
+:::
 
 ##  {#modern-accessibility-1 data-menu-title="Accessibility"}
 
 [**Modern Users** \| Accessibility with Adobe Color]{.slide-header}
 
 <br> <br>
+
 <center>
-:::{.r-stack}
-::: {.fragment .fade-out fragment-index=2}
+
+::: r-stack
+::: {.fragment .fade-out fragment-index="2"}
 ![](images/wheel.png){width="20%"}
 :::
-:::{.fragment fragment-index=3}
+
+::: {.fragment fragment-index="3"}
 ![](images/checker.png){width="60%"}
 :::
 :::
 
-:::{}
+<div>
+
 ![](images/palette.png){width="60%"}
+
+</div>
+
+::: {.fragment fragment-index="1"}
+<br> ![](images/color_blindness.png){width="60%"}
 :::
 
-::: {.fragment fragment-index=1}
-<br>
-![](images/color_blindness.png){width="60%"}
-:::
 </center>
-
 
 ##  {#modern-accessibility data-menu-title="Accessibility"}
 
 [**Modern Users** \| Accessibility with CCA]{.slide-header}
 
-<br> <br>
-{{< video videos/accessibility.mov height="600px" >}}
-
+<br> <br> {{< video videos/accessibility.mp4 height="600px" >}}

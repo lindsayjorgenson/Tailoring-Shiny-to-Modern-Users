@@ -8,7 +8,7 @@
 
 ##  {#profile-about data-menu-title="What is the Profile?"}
 
-[**Background** \| What is the Profile?]{.slide-header} 
+[**Background** \| What is the Profile?]{.slide-header}
 
 <br> <br> <br> [The ASTHO Profile of State and Territorial Public Health is a longitudinal census that began in 2007 and is fielded every three years to state and territorial health agencies with funding from CDC and RWJF.]{.text} <br> <br> <br> <br>
 
@@ -60,4 +60,4 @@
 
 ##  {#profile-previous data-menu-title="Previous Dashboard"}
 
-[**Background** \| Before...]{.slide-header} <br> <br> {{< video videos/previous_dashboard.mov height="500px" >}}
+[**Background** \| Before...]{.slide-header} <br> <br> {{< video videos/previous_dashboard.mp4 height="500px" >}}
