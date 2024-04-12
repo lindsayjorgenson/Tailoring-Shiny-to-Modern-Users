@@ -85,9 +85,18 @@ details>summary {
 }
 
 .reveal .text {
-    position: absolute;
-    margin-left: 10%;
-    margin-right: 10%;
+  color: $blue;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.reveal .text-sm {
+  color: $blue;
+  font-size: .9em;
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .reveal .title-slide h1 {
