@@ -2,7 +2,7 @@
 
 #  {#profile-dashboard .background-title}
 
-<center>![](images/users_slide.png){width="30%"} <br> [Profile Dashboard]{.section-header}</center>
+<center>![](images/graph_slide.png){width="30%" fig-alt="Icon showing a trend line graph."} <br> [Profile Dashboard]{.section-header}</center>
 
 <!-- Profile Demo Slide -->
 

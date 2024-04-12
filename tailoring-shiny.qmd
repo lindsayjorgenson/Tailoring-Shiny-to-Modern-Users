@@ -16,7 +16,7 @@ format:
     - videos/filter.mp4
 ---
 
-##  {#tailoring_shiny data-menu-title="Tailoring Shiny" background-image="profile.gif" background-size="110%"}
+##  {#tailoring_shiny data-menu-title="Tailoring Shiny" background-image="profile.gif" background-size="110%" fig-alt="Image of several graphs with a triangular logo that rotates colors."}
 
 [Tailoring Shiny to Modern Users]{.title} [Lindsay Jorgenson <br> & John Coene]{.subtitle} [*ShinyConf 2024*]{.subtitle-sm}
 
