@@ -10,11 +10,11 @@
 
 <br><br>
 <center>
-<br> ![](images/gen_z.jpg){width="70%" fig-alt="A comic of people discussing how to appeal to gen-z. For full description, click on the link that reads, show full image description.}
+<br> ![](images/gen_z.jpg){fig-alt="A comic of people discussing how to appeal to gen-z. For full description, click on the link that reads, show description." width="70%"}
 </center>
 
-:::{.absolute left=1100px top=150px}
-[<a href="comic.html">Show Full Image Description</a>]{.footnote}
+:::{.absolute left=1100px top=130px}
+[<a href="comic.html">Show Description</a>]{.footnote}
 :::
 
 
