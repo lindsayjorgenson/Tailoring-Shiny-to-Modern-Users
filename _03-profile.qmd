@@ -38,15 +38,13 @@
 
 ##  {#profile-stories-code data-menu-title="Data Stories Code"}
 
-[**Profile** \| Data Stories Code]{.slide-header} <br> <br>
+[**Profile** \| Data Stories Code]{.slide-header} <br> <br> <br> <br>
 
-```{r}
-#| echo: fenced
+[I created a repo on GitHub to demonstrate how we developed the data stories 
+structure. You can find the code [here](https://github.com/lindsayjorgenson/stories-mre) and 
+the app [here](https://astho.shinyapps.io/stories-mre/).]{.text}
 
-#create an MRE app and add the code that would correspond
-#link to the GitHub repo
 
-```
 
 <!-- Profile Collapse Video -->
 
@@ -66,4 +64,4 @@
 
 <br> <br>
 
-Add video
+{{< video filter.mp4 height="600px" >}}
