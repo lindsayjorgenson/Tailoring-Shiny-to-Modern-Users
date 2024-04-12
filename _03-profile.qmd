@@ -30,7 +30,7 @@
 
 ##  {#profile-stories-demo data-menu-title="Data Stories Demo"}
 
-[**Profile** \| Data Stories Demo]{.slide-header} <br> <br>
+[**Profile** \| Data Stories Demo]{.slide-header} <br> <br> <br>
 
 {{< video videos/stories.mp4 height="600px" >}}
 
@@ -52,7 +52,7 @@ the app [here](https://astho.shinyapps.io/stories-mre/).]{.text}
 
 [**Profile** \| Page Collapse]{.slide-header}
 
-<br> <br>
+<br> <br> <br>
 
 {{< video videos/collapse.mp4 height="600px" >}}
 
@@ -62,6 +62,6 @@ the app [here](https://astho.shinyapps.io/stories-mre/).]{.text}
 
 [**Profile** \| Filtering]{.slide-header}
 
-<br> <br>
+<br> <br> <br>
 
 {{< video videos/filter.mp4 height="600px" >}}
