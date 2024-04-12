@@ -32,7 +32,7 @@
 
 [**Profile** \| Data Stories Demo]{.slide-header} <br> <br>
 
-{{< video stories.mp4 height="600px" >}}
+{{< video videos/stories.mp4 height="600px" >}}
 
 <!-- Profile Data Stories Code -->
 
@@ -54,7 +54,7 @@ the app [here](https://astho.shinyapps.io/stories-mre/).]{.text}
 
 <br> <br>
 
-{{< video collapse.mp4 height="600px" >}}
+{{< video videos/collapse.mp4 height="600px" >}}
 
 <!-- Profile Filter Video -->
 
@@ -64,4 +64,4 @@ the app [here](https://astho.shinyapps.io/stories-mre/).]{.text}
 
 <br> <br>
 
-{{< video filter.mp4 height="600px" >}}
+{{< video videos/filter.mp4 height="600px" >}}

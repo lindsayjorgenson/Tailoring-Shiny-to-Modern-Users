@@ -9,10 +9,11 @@ format:
     width: 1280
     height: 720
     resources:
-    - accessibility.mp4
-    - stories.mp4
-    - previous_dashboard.mp4
-    - collapse.mp4
+    - videos/accessibility.mp4
+    - videos/stories.mp4
+    - videos/previous_dashboard.mp4
+    - videos/collapse.mp4
+    - videos/filter.mp4
 ---
 
 ##  {#tailoring_shiny data-menu-title="Tailoring Shiny" background-image="profile.gif" background-size="110%"}
@@ -42,3 +43,8 @@ format:
 3.  Mara Averick has [a great blog with a five-part series](https://quartoand.me/blog) on accessibility using Joshua Kunst’s `{highcharter}` package ([here](https://jkunst.com/highcharter/)).<br>
 4. The code to this quarto presentation is [here](https://github.com/lindsayjorgenson/Tailoring-Shiny-to-Modern-Users). <br>
 5. The code to the stories demo is [here](https://github.com/lindsayjorgenson/stories-mre/tree/main).]{.text-sm}
+
+
+#  {#questions .background-title}
+
+<center>![](images/questions.png){width="30%"} <br> [Questions?]{.section-header}</center>
