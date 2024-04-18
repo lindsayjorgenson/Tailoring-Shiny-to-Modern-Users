@@ -40,9 +40,10 @@ format:
 
 [1.  For more information on how to use Adobe Color, visit [Adobe's accessibility help site](https://helpx.adobe.com/creative-cloud/adobe-color-accessibility-tools.html#:~:text=Create%20accessible%20color%20themes%20from,on%20the%20accessible%20color%20wheel.). <br> 
 2.  To download the Colour Contrast Analyzer, [click here](https://www.tpgi.com/color-contrast-checker/). <br>
-3.  Mara Averick has [a great blog with a five-part series](https://quartoand.me/blog) on accessibility using Joshua Kunst’s `{highcharter}` package ([here](https://jkunst.com/highcharter/)).<br>
-4. The code to this quarto presentation is [here](https://github.com/lindsayjorgenson/Tailoring-Shiny-to-Modern-Users). <br>
-5. The code to the stories demo is [here](https://github.com/lindsayjorgenson/stories-mre/tree/main).]{.text-sm}
+3.  Another great color tool is [Viz Palette](https://projects.susielu.com/viz-palette) (I just discovered this).<br>
+4.  Mara Averick has [a great blog with a five-part series](https://quartoand.me/blog) on accessibility using Joshua Kunst’s `{highcharter}` package ([here](https://jkunst.com/highcharter/)).<br>
+5. The code to this quarto presentation is [here](https://github.com/lindsayjorgenson/Tailoring-Shiny-to-Modern-Users). <br>
+6. The code to the stories demo is [here](https://github.com/lindsayjorgenson/stories-mre/tree/main).]{.text-sm}
 
 
 #  {#questions .background-title}
