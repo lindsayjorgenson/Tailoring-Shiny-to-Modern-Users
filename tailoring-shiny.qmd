@@ -85,4 +85,4 @@ format:
 
 #  {#questions .background-title}
 
-<center>![](images/questions.png){width="30%"} <br> [Questions?]{.section-header}</center>
+<center>![](images/slunk.png){width="30%"} <br> [Questions?]{.section-header}</center>
