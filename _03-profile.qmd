@@ -40,9 +40,9 @@
 
 [**Profile** \| Data Stories Code]{.slide-header} <br> <br> <br> <br>
 
-[I created a repo on GitHub to demonstrate how we developed the data stories 
+[I created a GitHub repository to show the code behind the data stories 
 structure. You can find the code [here](https://github.com/lindsayjorgenson/stories-mre) and 
-the app [here](https://astho.shinyapps.io/stories-mre/).]{.text}
+the app [here](https://astho.shinyapps.io/stories-mre/). *Shout out to [Madoc Marshall](https://www.linkedin.com/in/madocalder/) who developed this structure.*]{.text}
 
 
 
