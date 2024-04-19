@@ -80,7 +80,7 @@ format:
 <li>To download the Colour Contrast Analyzer, [click here](https://www.tpgi.com/color-contrast-checker/). </li>
 <li>Another great color tool is [Viz Palette](https://projects.susielu.com/viz-palette) (I just discovered this).</li>
 <li>Mara Averick has [a great blog with a five-part series](https://quartoand.me/blog) on accessibility using Joshua Kunst’s `{highcharter}` package ([here](https://jkunst.com/highcharter/)). </li>
-<li>The code to this quarto presentation is [here](https://github.com/lindsayjorgenson/Tailoring-Shiny-to-Modern-Users), the code to the stories demo is [here](https://github.com/lindsayjorgenson/stories-mre/tree/main), and the app is [here!](www.astho.org/profile) </li></ul> </div>
+<li>The code to this quarto presentation is [here](https://github.com/lindsayjorgenson/Tailoring-Shiny-to-Modern-Users), the code to the stories demo is [here](https://github.com/lindsayjorgenson/stories-mre/tree/main), and the app is [here!](https://www.astho.org/profile) </li></ul> </div>
 
 
 #  {#questions .background-title}
